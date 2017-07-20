@@ -100,11 +100,16 @@ func setPAData(cl *Client, ASReq *messages.ASReq, key *types.EncryptionKey) erro
 		if err != nil {
 			return krberror.Errorf(err, krberror.ENCRYPTING_ERROR, "Error creating etype")
 		}
-		key, err := cl.Credentials.Keytab.GetEncryptionKey(cl.Credentials.CName.NameString, cl.Config.LibDefaults.Default_realm, 1, etype.GetETypeID())
-		if err != nil {
-			return krberror.Errorf(err, krberror.ENCRYPTING_ERROR, "Error getting key from keytab in credentials")
+
+		if key == nil{
+			keyValue, err := cl.Credentials.Keytab.GetEncryptionKey(cl.Credentials.CName.NameString, cl.Config.LibDefaults.Default_realm, 1, etype.GetETypeID())
+			if err != nil {
+				return krberror.Errorf(err, krberror.ENCRYPTING_ERROR, "Error getting key from keytab in credentials")
+			}
+			key = &keyValue
 		}
-		paEncTS, err := crypto.GetEncryptedData(paTSb, key, keyusage.AS_REQ_PA_ENC_TIMESTAMP, 1)
+
+		paEncTS, err := crypto.GetEncryptedData(paTSb, *key, keyusage.AS_REQ_PA_ENC_TIMESTAMP, 1)
 		if err != nil {
 			return krberror.Errorf(err, krberror.ENCRYPTING_ERROR, "Error encrypting pre-authentication timestamp")
 		}
