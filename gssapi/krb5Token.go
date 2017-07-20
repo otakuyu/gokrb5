@@ -5,12 +5,12 @@ import (
 	"encoding/hex"
 	"fmt"
 	"github.com/jcmturner/asn1"
-	"github.com/jcmturner/gokrb5/asn1tools"
-	"github.com/jcmturner/gokrb5/credentials"
-	"github.com/jcmturner/gokrb5/crypto"
-	"github.com/jcmturner/gokrb5/iana/chksumtype"
-	"github.com/jcmturner/gokrb5/messages"
-	"github.com/jcmturner/gokrb5/types"
+	"github.com/otakuyu/gokrb5/asn1tools"
+	"github.com/otakuyu/gokrb5/credentials"
+	"github.com/otakuyu/gokrb5/crypto"
+	"github.com/otakuyu/gokrb5/iana/chksumtype"
+	"github.com/otakuyu/gokrb5/messages"
+	"github.com/otakuyu/gokrb5/types"
 )
 
 const (

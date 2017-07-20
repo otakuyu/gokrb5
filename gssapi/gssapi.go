@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 	"github.com/jcmturner/asn1"
-	"github.com/jcmturner/gokrb5/asn1tools"
-	"github.com/jcmturner/gokrb5/credentials"
-	"github.com/jcmturner/gokrb5/messages"
-	"github.com/jcmturner/gokrb5/types"
+	"github.com/otakuyu/gokrb5/asn1tools"
+	"github.com/otakuyu/gokrb5/credentials"
+	"github.com/otakuyu/gokrb5/messages"
+	"github.com/otakuyu/gokrb5/types"
 )
 
 // SPNEGO_OID is the OID for SPNEGO header type.

@@ -4,10 +4,10 @@ import (
 	"crypto/aes"
 	"crypto/hmac"
 	"crypto/sha256"
-	"github.com/jcmturner/gokrb5/crypto/common"
-	"github.com/jcmturner/gokrb5/crypto/rfc8009"
-	"github.com/jcmturner/gokrb5/iana/chksumtype"
-	"github.com/jcmturner/gokrb5/iana/etypeID"
+	"github.com/otakuyu/gokrb5/crypto/common"
+	"github.com/otakuyu/gokrb5/crypto/rfc8009"
+	"github.com/otakuyu/gokrb5/iana/chksumtype"
+	"github.com/otakuyu/gokrb5/iana/etypeID"
 	"hash"
 )
 

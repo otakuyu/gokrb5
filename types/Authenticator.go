@@ -4,9 +4,9 @@ package types
 import (
 	"fmt"
 	"github.com/jcmturner/asn1"
-	"github.com/jcmturner/gokrb5/asn1tools"
-	"github.com/jcmturner/gokrb5/iana"
-	"github.com/jcmturner/gokrb5/iana/asnAppTag"
+	"github.com/otakuyu/gokrb5/asn1tools"
+	"github.com/otakuyu/gokrb5/iana"
+	"github.com/otakuyu/gokrb5/iana/asnAppTag"
 	"math/rand"
 	"time"
 )

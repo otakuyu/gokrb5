@@ -5,11 +5,11 @@ package client
 
 import (
 	"encoding/hex"
-	"github.com/jcmturner/gokrb5/config"
-	"github.com/jcmturner/gokrb5/credentials"
-	"github.com/jcmturner/gokrb5/iana/etypeID"
-	"github.com/jcmturner/gokrb5/keytab"
-	"github.com/jcmturner/gokrb5/testdata"
+	"github.com/otakuyu/gokrb5/config"
+	"github.com/otakuyu/gokrb5/credentials"
+	"github.com/otakuyu/gokrb5/iana/etypeID"
+	"github.com/otakuyu/gokrb5/keytab"
+	"github.com/otakuyu/gokrb5/testdata"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"testing"

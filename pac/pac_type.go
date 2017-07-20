@@ -4,10 +4,10 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/jcmturner/gokrb5/crypto"
-	"github.com/jcmturner/gokrb5/iana/keyusage"
-	"github.com/jcmturner/gokrb5/ndr"
-	"github.com/jcmturner/gokrb5/types"
+	"github.com/otakuyu/gokrb5/crypto"
+	"github.com/otakuyu/gokrb5/iana/keyusage"
+	"github.com/otakuyu/gokrb5/ndr"
+	"github.com/otakuyu/gokrb5/types"
 )
 
 // PACType implements: https://msdn.microsoft.com/en-us/library/cc237950.aspx

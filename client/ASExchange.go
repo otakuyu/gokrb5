@@ -2,13 +2,13 @@ package client
 
 import (
 	"errors"
-	"github.com/jcmturner/gokrb5/crypto"
-	"github.com/jcmturner/gokrb5/iana/errorcode"
-	"github.com/jcmturner/gokrb5/iana/keyusage"
-	"github.com/jcmturner/gokrb5/iana/patype"
-	"github.com/jcmturner/gokrb5/krberror"
-	"github.com/jcmturner/gokrb5/messages"
-	"github.com/jcmturner/gokrb5/types"
+	"github.com/otakuyu/gokrb5/crypto"
+	"github.com/otakuyu/gokrb5/iana/errorcode"
+	"github.com/otakuyu/gokrb5/iana/keyusage"
+	"github.com/otakuyu/gokrb5/iana/patype"
+	"github.com/otakuyu/gokrb5/krberror"
+	"github.com/otakuyu/gokrb5/messages"
+	"github.com/otakuyu/gokrb5/types"
 	"sort"
 )
 

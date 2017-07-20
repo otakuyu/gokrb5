@@ -2,9 +2,9 @@
 package credentials
 
 import (
-	"github.com/jcmturner/gokrb5/iana/nametype"
-	"github.com/jcmturner/gokrb5/keytab"
-	"github.com/jcmturner/gokrb5/types"
+	"github.com/otakuyu/gokrb5/iana/nametype"
+	"github.com/otakuyu/gokrb5/keytab"
+	"github.com/otakuyu/gokrb5/types"
 	"time"
 )
 

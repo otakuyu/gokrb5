@@ -3,15 +3,15 @@ package messages
 import (
 	"fmt"
 	"github.com/jcmturner/asn1"
-	"github.com/jcmturner/gokrb5/asn1tools"
-	"github.com/jcmturner/gokrb5/crypto"
-	"github.com/jcmturner/gokrb5/iana"
-	"github.com/jcmturner/gokrb5/iana/asnAppTag"
-	"github.com/jcmturner/gokrb5/iana/keyusage"
-	"github.com/jcmturner/gokrb5/iana/msgtype"
-	"github.com/jcmturner/gokrb5/iana/nametype"
-	"github.com/jcmturner/gokrb5/krberror"
-	"github.com/jcmturner/gokrb5/types"
+	"github.com/otakuyu/gokrb5/asn1tools"
+	"github.com/otakuyu/gokrb5/crypto"
+	"github.com/otakuyu/gokrb5/iana"
+	"github.com/otakuyu/gokrb5/iana/asnAppTag"
+	"github.com/otakuyu/gokrb5/iana/keyusage"
+	"github.com/otakuyu/gokrb5/iana/msgtype"
+	"github.com/otakuyu/gokrb5/iana/nametype"
+	"github.com/otakuyu/gokrb5/krberror"
+	"github.com/otakuyu/gokrb5/types"
 )
 
 /*AP-REQ          ::= [APPLICATION 14] SEQUENCE {

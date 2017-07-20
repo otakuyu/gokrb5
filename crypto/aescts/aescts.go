@@ -6,7 +6,7 @@ import (
 	"crypto/cipher"
 	"errors"
 	"fmt"
-	"github.com/jcmturner/gokrb5/crypto/common"
+	"github.com/otakuyu/gokrb5/crypto/common"
 )
 
 // Encrypt the message with the key and the initial vector.

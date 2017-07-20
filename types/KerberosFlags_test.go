@@ -2,7 +2,7 @@ package types
 
 import (
 	"github.com/jcmturner/asn1"
-	"github.com/jcmturner/gokrb5/iana/flags"
+	"github.com/otakuyu/gokrb5/iana/flags"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

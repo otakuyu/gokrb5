@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/jcmturner/gokrb5/types"
+	"github.com/otakuyu/gokrb5/types"
 	"io/ioutil"
 	"time"
 	"unsafe"

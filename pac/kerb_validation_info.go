@@ -4,8 +4,8 @@ package pac
 import (
 	"errors"
 	"fmt"
-	"github.com/jcmturner/gokrb5/mstypes"
-	"github.com/jcmturner/gokrb5/ndr"
+	"github.com/otakuyu/gokrb5/mstypes"
+	"github.com/otakuyu/gokrb5/ndr"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/jcmturner/gokrb5/crypto/etype"
+	"github.com/otakuyu/gokrb5/crypto/etype"
 )
 
 const (

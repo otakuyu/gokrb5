@@ -2,7 +2,7 @@ package mstypes
 
 import (
 	"encoding/binary"
-	"github.com/jcmturner/gokrb5/ndr"
+	"github.com/otakuyu/gokrb5/ndr"
 )
 
 // RPC_UnicodeString implements https://msdn.microsoft.com/en-us/library/cc230365.aspx

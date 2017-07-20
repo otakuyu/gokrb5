@@ -2,7 +2,7 @@ package mstypes
 
 import (
 	"encoding/binary"
-	"github.com/jcmturner/gokrb5/ndr"
+	"github.com/otakuyu/gokrb5/ndr"
 )
 
 const (

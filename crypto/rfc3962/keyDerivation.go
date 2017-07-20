@@ -1,8 +1,8 @@
 package rfc3962
 
 import (
-	"github.com/jcmturner/gokrb5/crypto/common"
-	"github.com/jcmturner/gokrb5/crypto/etype"
+	"github.com/otakuyu/gokrb5/crypto/common"
+	"github.com/otakuyu/gokrb5/crypto/etype"
 	"golang.org/x/crypto/pbkdf2"
 )
 

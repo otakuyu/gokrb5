@@ -3,11 +3,11 @@ package pac
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/jcmturner/gokrb5/crypto"
-	"github.com/jcmturner/gokrb5/iana/keyusage"
-	"github.com/jcmturner/gokrb5/mstypes"
-	"github.com/jcmturner/gokrb5/ndr"
-	"github.com/jcmturner/gokrb5/types"
+	"github.com/otakuyu/gokrb5/crypto"
+	"github.com/otakuyu/gokrb5/iana/keyusage"
+	"github.com/otakuyu/gokrb5/mstypes"
+	"github.com/otakuyu/gokrb5/ndr"
+	"github.com/otakuyu/gokrb5/types"
 )
 
 // https://msdn.microsoft.com/en-us/library/cc237931.aspx

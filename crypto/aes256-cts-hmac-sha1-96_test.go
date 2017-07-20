@@ -2,8 +2,8 @@ package crypto
 
 import (
 	"encoding/hex"
-	"github.com/jcmturner/gokrb5/crypto/common"
-	"github.com/jcmturner/gokrb5/crypto/rfc3962"
+	"github.com/otakuyu/gokrb5/crypto/common"
+	"github.com/otakuyu/gokrb5/crypto/rfc3962"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

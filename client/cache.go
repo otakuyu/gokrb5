@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/jcmturner/gokrb5/messages"
-	"github.com/jcmturner/gokrb5/types"
+	"github.com/otakuyu/gokrb5/messages"
+	"github.com/otakuyu/gokrb5/types"
 	"strings"
 	"time"
 )

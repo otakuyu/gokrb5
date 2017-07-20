@@ -3,8 +3,8 @@ package messages
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/jcmturner/gokrb5/iana/msgtype"
-	"github.com/jcmturner/gokrb5/testdata"
+	"github.com/otakuyu/gokrb5/iana/msgtype"
+	"github.com/otakuyu/gokrb5/testdata"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"

@@ -3,9 +3,9 @@ package messages
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/jcmturner/gokrb5/keytab"
-	"github.com/jcmturner/gokrb5/testdata"
-	"github.com/jcmturner/gokrb5/types"
+	"github.com/otakuyu/gokrb5/keytab"
+	"github.com/otakuyu/gokrb5/testdata"
+	"github.com/otakuyu/gokrb5/types"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"

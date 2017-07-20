@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"github.com/jcmturner/asn1"
-	"github.com/jcmturner/gokrb5/types"
+	"github.com/otakuyu/gokrb5/types"
 	"io/ioutil"
 	"strings"
 	"time"
