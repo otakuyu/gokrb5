@@ -9,6 +9,7 @@ import (
 	"math/rand"
 	"net"
 	"time"
+	"io"
 )
 
 // SendToKDC performs network actions to send data to the KDC.
@@ -153,12 +154,9 @@ func sendTCP(kdc string, b []byte) ([]byte, error) {
 	if err != nil {
 		return r, fmt.Errorf("Error sending to KDC: %v", err)
 	}
-	tcpbuf := make([]byte, 4096)
-	n, err := conn.Read(tcpbuf)
-	if err != nil {
-		return r, fmt.Errorf("Sending over TCP failed: %v", err)
-	}
-	r = tcpbuf[:n]
+	var respBuf bytes.Buffer
+	io.Copy(&respBuf, conn)
+	r = respBuf.Bytes()
 	return checkForKRBError(r[4:])
 }
 
